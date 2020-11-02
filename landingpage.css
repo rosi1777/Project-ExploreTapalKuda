@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Bold.ttf);
+}
+
+.title {
+    height: 100%;
+    width: 100%;
+    background-color: #0000002f;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Great Wishes';
+    margin-top: 17%;
+    margin-bottom: 0%;
+}
+
+button {
+    width: 14%;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.521);
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    text-align: center;
+    border-radius: 17px;
+    cursor: pointer;
+    margin-left: 58%;
+}
