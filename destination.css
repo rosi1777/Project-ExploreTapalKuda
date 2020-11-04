@@ -21,7 +21,7 @@ body {
     position: relative;
 }
 
-.wrapper .sidebar {
+.sidebar {
     position: fixed;
     width: 221px;
     height: 100%;
@@ -72,3 +72,27 @@ body {
     background:rgba(50, 50, 50, 0.2);
     border:0px solid #dbdbdb;
     margin-left: 230px;
+}
+
+.maps1 {
+    float: left;
+    margin-left: 250px;
+    margin-top: 150px;
+    width:200px;
+    height:200px;
+    content: url(https://asset.kompas.com/crops/o3JGHQ7UFlV8b5gaDRSsilo-7fY=/91x102:910x649/750x500/data/photo/2020/02/16/5e48a47ed9317.jpg);
+}
+
+.keterangan {
+    float: left;
+    margin-left: 27px;
+    margin-top: 150px;
+    width:50%;
+    height:200px;
+}
+.tombol {
+    width: 200px;
+    height: 30px;
+    margin-top: 75px;
+    background: #0b807a;
+}
