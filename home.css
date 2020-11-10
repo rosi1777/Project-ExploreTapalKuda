@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 @font-face {
     font-family: "Montserrat";
     src: url(Montserrat-ExtraBold.ttf);
@@ -90,7 +91,9 @@ body {
 }
 
 .wrapper .profile .profile_img_info .info {
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .wrapper .profile .profile_img_info .info .name {
@@ -133,4 +136,328 @@ body {
 .searchbox .searchboxelement a {
     font-size: 26;
     color: rgb(161, 161, 161);
+}
+
+h3 {
+    margin-left: 252px;
+    margin-top: 20px;
+}
+
+hr {
+    height: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 252px;
+    background: #0b807a;
+    margin-top: 3px;
+}
+
+.rd {
+    width: 253px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 19%;
+}
+
+.flex-container div {
+    background-color: #FFFFFF;
+    width: 187px;
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.flex-container .baluran .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .baluran .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .baluran .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .ijen .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .ijen .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .ijen .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .bromo .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .bromo .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .bromo .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .madaka .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .madaka .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .madaka .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .papuma .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .papuma .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .papuma .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .kawahwurung .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .kawahwurung .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .kawahwurung .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .kawahilalang .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .kawahilalang .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .kawahilalang .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .ranuagung .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .ranuagung .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .ranuagung .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .cobansriti .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .cobansriti .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .cobansriti .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.flex-container .tumpak .info {
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 187px;
+    height: 57px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 192px;
+}
+
+.flex-container .tumpak .info .address {
+    font-size: 13px;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+
+.flex-container .tumpak .info .rute {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 3px;
+    font-family: 'Times New Roman';
+}
+
+.baluran {
+    background: url(baluran2.jpg);
+    background-size: cover;
+}
+
+.ijen {
+    background: url(bluefire.jpg);
+    background-size: cover;
+}
+
+.bromo {
+    background: url(bromo2.jpg);
+    background-size: cover;
+}
+
+.madaka {
+    background: url(madaka.jpg);
+    background-size: cover;
+}
+
+.papuma {
+    background: url(papuma.jpg);
+    background-size: cover;
+}
+
+.kawahilalang {
+    background: url(KawahIlalang.jpg);
+    background-size: cover;
+}
+
+.kawahwurung {
+    background: url(Kawahwurung.jpg);
+    background-size: cover;
+}
+
+.ranuagung {
+    background: url(ranuagung.jpg);
+    background-size: cover;
+}
+
+.cobansriti {
+    background: url(cobansriti.jpg);
+    background-size: cover;
+}
+
+.tumpak {
+    background: url(ts.jpg);
+    background-size: cover;
 }
