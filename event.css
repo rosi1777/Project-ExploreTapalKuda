@@ -255,3 +255,13 @@ hr {
     font-family: 'Oswald', sans-serif;
     margin-top: 7px;
 }
+
+.card:hover {
+    transform: scale(1.0);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
