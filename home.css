@@ -412,6 +412,16 @@ hr {
     font-family: 'Times New Roman';
 }
 
+#card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+#card {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
 .baluran {
     background: url(baluran2.jpg);
     background-size: cover;
