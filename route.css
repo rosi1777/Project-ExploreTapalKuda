@@ -90,7 +90,9 @@ body {
 }
 
 .wrapper .profile .profile_img_info .info {
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .wrapper .profile .profile_img_info .info .name {
