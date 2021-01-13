@@ -3,6 +3,7 @@ body {
     height: 100%;
     background: url(background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @font-face {
@@ -40,4 +41,28 @@ button {
     border-radius: 17px;
     cursor: pointer;
     margin-left: 58%;
+}
+
+@media screen and (max-width: 870px) {
+    p {
+        font-size: 45px;
+    }
+    button {
+        width: 13%;
+        height: 15px;
+        font-size: 17px;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    p {
+        font-size: 30px;
+    }
+    button {
+        width: 7%;
+        height: 15px;
+        font-size: 11px;
+        border-radius: 9px;
+    }
 }
