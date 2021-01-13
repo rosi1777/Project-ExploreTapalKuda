@@ -188,12 +188,14 @@ body {
 .box .image {
     background: url(Tumpak_Sewu_Waterfalls.jpg);
     background-size: cover;
+    border-top-left-radius: 10px;
 }
 
 .box .description {
     margin-left: 0;
     padding-top: 10px;
     padding-left: 10px;
+    border-top-right-radius: 10px
 }
 
 hr {
@@ -224,6 +226,8 @@ hr {
     width: 500px;
     height: 40px;
     padding-left: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .icon p {
