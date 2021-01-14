@@ -257,6 +257,9 @@ label #sidebar_btn:hover {
 .subcontent {
     margin-top: 75px;
     margin-left: 20px;
+    border-radius: 20px;
+    background-color: #0B807A;
+
 }
 
 .button{
@@ -280,6 +283,7 @@ label #sidebar_btn:hover {
     height: 25px;
     margin-left: 375px;
     float: right;
+    border-color: white;
 }
 
 
