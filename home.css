@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    background-color: #F5F5F5;
 }
 
 header {
@@ -182,344 +183,217 @@ label #sidebar_btn:hover {
     .active {
         display: block;
     }
+    .second {
+        margin-left: 30px;
+    }
+    .popular {
+        margin-left: 30px;
+    }
 }
 
-.first {
-    margin-top: 6%;
-}
-
-h3 {
+.second {
     font-family: 'Montserrat', sans-serif;
-    margin-left: 252px;
-    margin-top: 20px;
+    margin-top: 70px;
+    margin-left: 250px;
 }
 
-hr {
+.popular {
+    width: 260px;
+    margin-left: 250px;
     height: 5px;
-    width: 200px;
     border: none;
     border-radius: 10px;
-    margin-left: 252px;
     background: #0b807a;
-    margin-top: 0;
+    margin-top: -10px;
+    margin-bottom: 15px;
 }
 
-.rd {
-    width: 253px;
+.three {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-left: 250px;
 }
 
-.flex-container {
+.recomended {
+    width: 313px;
+    margin-left: 250px;
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background: #0b807a;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 570px) {
+    .second {
+        margin-left: 30px;
+    }
+    .popular {
+        margin-left: 30px;
+    }
+    .three {
+        margin-left: 30px;
+    }
+    .recomended {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 870px) {
+    .second {
+        margin-left: 30px;
+    }
+    .popular {
+        margin-left: 30px;
+    }
+    .three {
+        margin-left: 30px;
+    }
+    .recomended {
+        margin-left: 30px;
+    }
+}
+
+.flex-box {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-flow: wrap;
-    margin-left: 19%;
+    margin-left: 245px
 }
 
-.flex-container div {
+.card {
     background-color: #FFFFFF;
     width: 18.3%;
-    margin-top: 15px;
-    margin-left: 15px;
-    height: 250px;
+    height: 277px;
     border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
 }
 
-.flex-container .baluran .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .baluran .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .baluran .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .ijen .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .ijen .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .ijen .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .bromo .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .bromo .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .bromo .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .madaka .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .madaka .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .madaka .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .papuma .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .papuma .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .papuma .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .kawahwurung .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .kawahwurung .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .kawahwurung .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .kawahilalang .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .kawahilalang .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .kawahilalang .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .ranuagung .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .ranuagung .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .ranuagung .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .cobansriti .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .cobansriti .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .cobansriti .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-.flex-container .tumpak .info {
-    background-color: rgba(0, 0, 0, 0.336);
-    width: 187px;
-    height: 57px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    color: white;
-    margin-left: 0px;
-    margin-top: 192px;
-}
-
-.flex-container .tumpak .info .address {
-    font-size: 13px;
-    margin-left: 12px;
-    padding-top: 10px;
-}
-
-.flex-container .tumpak .info .rute {
-    font-size: 13px;
-    margin-left: 12px;
-    margin-top: 3px;
-    font-family: 'Times New Roman';
-}
-
-#card:hover {
-    transform: scale(1.05);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-}
-
-#card {
-    transition: 0.5s ease;
-    cursor: pointer;
+.tumpaksewu {
+    background: url(Tumpak_Sewu_Waterfalls.jpg);
+    background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
 }
 
 .baluran {
     background: url(baluran2.jpg);
     background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
 }
 
-.ijen {
-    background: url(bluefire.jpg);
+.madakaripura {
+    background: url(madaka.jpg);
     background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
 }
 
 .bromo {
     background: url(bromo2.jpg);
     background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
 }
 
-.madaka {
-    background: url(madaka.jpg);
+.ijen {
+    background: url(bluefire.jpg);
     background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
+}
+
+.wurung {
+    background: url(Kawahwurung.jpg);
+    background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
+}
+
+.ilalang {
+    background: url(KawahIlalang.jpg);
+    background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
+}
+
+.ranu {
+    background: url(ranuagung.jpg);
+    background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
+}
+
+.coban {
+    background: url(cobansriti.jpg);
+    background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
 }
 
 .papuma {
     background: url(papuma.jpg);
     background-size: cover;
+    height: 227px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -17px;
 }
 
-.kawahilalang {
-    background: url(KawahIlalang.jpg);
-    background-size: cover;
+.card-body a {
+    text-decoration: none;
+    color: black;
 }
 
-.kawahwurung {
-    background: url(Kawahwurung.jpg);
-    background-size: cover;
+.card-body h5 {
+    margin-top: -17px;
 }
 
-.ranuagung {
-    background: url(ranuagung.jpg);
-    background-size: cover;
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
-.cobansriti {
-    background: url(cobansriti.jpg);
-    background-size: cover;
+.card {
+    transition: 0.5s ease;
+    cursor: pointer;
 }
 
-.tumpak {
-    background: url(ts.jpg);
-    background-size: cover;
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .flex-box {
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+    .card {
+        width: 80%;
+    }
 }
