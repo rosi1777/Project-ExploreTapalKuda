@@ -4,17 +4,11 @@
     src: url(Montserrat-ExtraBold.ttf);
 }
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Montserrat";
-}
-
-body {
-    background: #f3f5f9
+    font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -24,7 +18,7 @@ header {
     padding: 20px;
     width: calc(100% - 0%);
     top: 0;
-    height: 60px;
+    height: 20px;
 }
 
 .left_area h3 {
