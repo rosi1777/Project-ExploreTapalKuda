@@ -1,86 +1,209 @@
-@font-face {
-    font-family: "Montserrat";
-    src: url(Montserrat-ExtraBold.ttf);
-}
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Montserrat";
+    font-family: "Roboto", sans-serif;
+    background-color: #F5F5F5;
 }
 
-body {
-    background: #f3f5f9
-}
-
-.wrapper {
-    display: flex;
-    position: relative;
-}
-
-.wrapper .sidebar {
+header {
+    z-index: 1;
     position: fixed;
+    background: #086661;
+    padding: 20px;
+    width: calc(100% - 0%);
+    top: 0;
+    height: 20px;
+}
+
+.left_area h3 {
+    color: #fff;
+    font-family: 'Great Wishes';
+    margin-left: 0;
+    margin-top: -7px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.sidebar {
+    z-index: 1;
+    top: 0;
+    background: #0B807A;
+    margin-top: 60px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
     width: 221px;
-    height: 100%;
-    background: #0b807a;
-    padding: 30px 0;
+    height: calc(100% - 9%);
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+    transition-property: left;
+    overflow-y: auto;
 }
 
-.explore {
-    color: white;
-    font-family: 'Great Wishes';
-    font-size: 22px;
-    margin-left: 7%;
-    margin-top: -5%;
+.profile_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.tapalkuda {
-    color: white;
-    font-family: 'Great Wishes';
-    font-size: 22px;
-    margin-left: 32%;
-    margin-bottom: 20%;
+.sidebar .profile_info .profile_image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
 }
 
-.wrapper .sidebar ul li {
-    padding: 15px;
+.sidebar .profile_info h4 {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
-.wrapper .sidebar ul li a {
-    color: #c5eeec;
+.sidebar a {
+    color: #fff;
     display: block;
-    text-align: center;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
 }
 
-.wrapper .sidebar ul li:hover {
+.sidebar a:hover {
     background: #598f8d;
 }
 
-.wrapper .sidebar ul li:hover a {
+.sidebar i {
+    padding-right: 10px;
+}
+
+label #sidebar_btn {
+    z-index: 1;
     color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+}
+
+label #sidebar_btn:hover {
+    color: #598f8d;
+}
+
+#check:checked~.sidebar {
+    left: -175px;
+}
+
+#check:checked~.sidebar a span {
+    display: none;
+}
+
+#check:checked~.sidebar a {
+    font-size: 20px;
+    margin-left: 145px;
+    width: 100%;
+}
+
+#check:checked~.sidebar .profile_info {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.mobile_nav {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    .sidebar {
+        display: none;
+    }
+    #sidebar_btn {
+        display: none;
+    }
+    .mobile_nav {
+        display: block;
+        width: calc(100% - 0%);
+    }
+    .nav_bar {
+        background: #0B807A;
+        width: (100% - 0px);
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .nav_bar .mobile_profile_image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .nav_bar .nav_btn {
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        transition: 0.5s;
+        transition-property: color;
+    }
+    .nav_bar .nav_btn:hover {
+        color: #598f8d;
+    }
+    .mobile_nav_items {
+        font-family: 'Montserrat', sans-serif;
+        background: #0B807A;
+        display: none;
+    }
+    .mobile_nav_items a {
+        color: #fff;
+        display: block;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 60px;
+        text-decoration: none;
+        box-sizing: border-box;
+        transition: 0.5s;
+        transition-property: background;
+    }
+    .mobile_nav_items a:hover {
+        background: #598f8d;
+    }
+    .mobile_nav_items i {
+        padding-right: 10px;
+    }
+    .active {
+        display: block;
+    }
 }
 
 .card-container {
-    width: 500px;
-    height: 570px;
+    width: 417px;
+    height: 490px;
+    display: flex;
+    flex-flow: wrap;
     background: #ffff;
     border-radius: 10px;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
     position: absolute;
+    margin-top: 80px;
+    margin-left: 500px;
 }
 
 .img-container {
     background: white;
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     padding: 5px;
-    transform: translate(200px, 150px);
+    transform: translate(150px, 150px);
 }
 
 .img-container img {
@@ -91,44 +214,42 @@ body {
 
 .upper-container {
     height: 200px;
+    width: 417px;
     background: url(cover.jpg);
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-h3 {
+.lower-container {
     text-align: center;
-    margin-top: 60px;
-}
-
-p {
-    font-family: 'Times New Roman';
-    text-align: center;
-    font-size: 16px;
-}
-
-.email {
-    margin-top: 30px;
-}
-
-h5 {
-    text-align: center;
-    margin-top: 17px;
+    margin-top: 40px;
+    width: 417px;
 }
 
 .edit {
-    width: 28%;
+    width: 50px;
     border: none;
     outline: none;
-    height: 34px;
+    height: 24px;
     background: #0b807a;
     color: white;
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
     border-radius: 7px;
     cursor: pointer;
-    margin-left: 7%;
-    margin-top: 17%;
+}
+
+@media screen and (max-width: 1000px) {
+    .card-container {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .card-container {
+        width: 100%;
+        margin-left: 2%;
+    }
 }

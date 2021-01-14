@@ -5,36 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="setting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <title>Setting</title>
     <script src="https://kit.fontawesome.com/ec7d53eef7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="sidebar">
-            <a href="home.html">
-                <h2 class="explore">Explore</h2>
-            </a>
-            <a href="home.html">
-                <h2 class="tapalkuda"> Tapal Kuda</h2>
-            </a>
-            <ul>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="setting.html">Setting and Privacy</a></li>
-                <li><a href="customer.html">Customer Service</a></li>
-                <li><a href="#">Log Out</a></li>
-            </ul>
+        <input type="checkbox" id="check">
+        <header>
+            <label for="check"><i class="fas fa-bars" id="sidebar_btn"></i></label>
+            <div class="left_area">
+                <h3>Explore Tapal Kuda</h3>
+            </div>
+        </header>
+        <div class="mobile_nav">
+            <div class="nav_bar">
+                <img src="syafril.jpg" class="mobile_profile_image" alt="">
+                <i class="fa fa-bars nav_btn"></i>
+            </div>
+            <div class="mobile_nav_items">
+                <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+                <a href="profile.html"><i class="fas fa-user-circle"></i><span>Profile</span></a>
+                <a href="setting.html"><i class="fas fa-user-cog"></i><span>Setting</span></a>
+                <a href="customer.html"><i class="fas fa-comments-dollar"></i><span>Service</span></a>
+                <a href="signinup.html"><i class="fas fa-sign-out-alt"></i><span>Log Out</span></a>
+            </div>
         </div>
-    </div>
+        <div class="sidebar">
+            <div class="profile_info">
+                <img src="syafril.jpg" class="profile_image" alt="">
+                <h4>Syafril Krisnanda</h4>
+            </div>
+            <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="profile.html"><i class="fas fa-user-circle"></i><span>Profile</span></a>
+            <a href="setting.html"><i class="fas fa-user-cog"></i><span>Setting</span></a>
+            <a href="customer.html"><i class="fas fa-comments-dollar"></i><span>Service</span></a>
+            <a href="signinup.html"><i class="fas fa-sign-out-alt"></i><span>Log Out</span></a>
+        </div>
 
-    <h2> Setting</h2>
+        <h2> Setting</h2>
 
-    <div class="table">
-        <table width="300px">
-            <tr>
-                <th height="70px">Language</th>
-                <th>
-                    <select name="language">
+        <div class="table">
+            <table width="300px">
+                <tr>
+                    <th height="70px">Language</th>
+                    <th>
+                        <select name="language">
                     <option> English</option>
                     <option> Indonesia</option>
                     <option> Belgia</option>
@@ -42,13 +59,13 @@
                     <option> Italia</option>
                     <option> Thai</option>
                 </select>
-                </th>
-            </tr>
+                    </th>
+                </tr>
 
-            <tr>
-                <th height="70px">Region</th>
-                <th>
-                    <select name="Region">
+                <tr>
+                    <th height="70px">Region</th>
+                    <th>
+                        <select name="Region">
                     <option> USA</option>
                     <option> Indonesia</option>
                     <option> Belgia</option>
@@ -56,29 +73,29 @@
                     <option> Italia</option>
                     <option> Thai</option>
                 </select>
-                </th>
-            </tr>
+                    </th>
+                </tr>
 
-            <tr>
-                <th height="70px">date setting</th>
-                <th>
-                    <select name="date">
+                <tr>
+                    <th height="70px">date setting</th>
+                    <th>
+                        <select name="date">
                     <input type="date" class="form-control">
                 </select>
-                </th>
-            </tr>
+                    </th>
+                </tr>
 
-            <tr>
-                <th height="70px">Time Setting</th>
-                <th>
-                    <select name="date">
+                <tr>
+                    <th height="70px">Time Setting</th>
+                    <th>
+                        <select name="date">
                     <input type="time" class="form-control">
                 </select>
-                </th>
-            </tr>
+                    </th>
+                </tr>
 
-        </table>
-    </div>
+            </table>
+        </div>
 </body>
 
 </html>
