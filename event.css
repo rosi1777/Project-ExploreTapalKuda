@@ -76,7 +76,7 @@ header {
     color: #fff;
     display: block;
     width: 100%;
-    line-height: 60px;
+    line-height: 50px;
     text-decoration: none;
     padding-left: 40px;
     box-sizing: border-box;
@@ -195,6 +195,7 @@ label #sidebar_btn:hover {
         display: block;
     }
 }
+
 h3 {
     margin-left: 252px;
     margin-top: 20px;
