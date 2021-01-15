@@ -211,6 +211,11 @@ label #sidebar_btn:hover {
     cursor: pointer;
 }
 
+.destination h1 {
+    font-size: 30px;
+    color: #0B807A;
+}
+
 .button1{
     margin-top: 80px;
     border-width: 3px;

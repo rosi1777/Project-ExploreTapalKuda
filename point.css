@@ -206,14 +206,10 @@ label #sidebar_btn:hover {
 }
 
 .flexbox .content {
-    background-image: url(ijen.jpg);
-    background-size: 1000px 300px;
-    width: 1000px;
+
     margin-top: 40px;
     margin-left: 15px;
-    height: 300px;
-    border-radius: 10px;
-    background-repeat: no-repeat;
+    height: 300px;    
 }
 
 .flexbox .tittleabout {
@@ -243,22 +239,14 @@ label #sidebar_btn:hover {
 .flexbox .content h3 {
     margin-left: 7px;
     margin-top: 5px;
-}
-
-.flexbox .content p {
-    margin-right: 7px;
-    margin-left: 7px;
-    margin-top: 17px;
-    font-family: 'Times New Roman';
-    text-align: justify;
-    font-size: 17px;
+    border-image-width: 100px;
 }
 
 .subcontent {
     margin-top: 75px;
     margin-left: 20px;
     border-radius: 20px;
-    background-color: #0B807A;
+    background-color: #0B807A;    
 
 }
 
@@ -272,20 +260,19 @@ label #sidebar_btn:hover {
     color: #ddd;
     width: 200px;
     height: 25px;
+    border-radius: 10px;
+    box-shadow: 40px;
 }
 
 .button1{
     margin: 0;
     top: 50%;
     background-color: #0b807a;
-    color: #ddd;
+    color: white;
     width: 100px;
     height: 25px;
     margin-left: 375px;
     float: right;
     border-color: white;
-}
-
-
-
-    
+    color: white;
+}   
