@@ -4,18 +4,13 @@
     src: url(Montserrat-ExtraBold.ttf);
 }
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Montserrat";
+    font-family: "Roboto", sans-serif;
 }
 
-body {
-    background: #f3f5f9
-}
 header {
     z-index: 1;
     position: fixed;
@@ -23,7 +18,7 @@ header {
     padding: 20px;
     width: calc(100% - 0%);
     top: 0;
-    height: 60px;
+    height: 20px;
 }
 
 .left_area h3 {
@@ -75,7 +70,7 @@ header {
     color: #fff;
     display: block;
     width: 100%;
-    line-height: 60px;
+    line-height: 50px;
     text-decoration: none;
     padding-left: 40px;
     box-sizing: border-box;
@@ -246,16 +241,20 @@ label #sidebar_btn:hover {
     margin-top: 75px;
     margin-left: 20px;
     border-radius: 20px;
+<<<<<<< HEAD
     background-color: #0B807A;    
 
+=======
+    background-color: #0B807A;
+>>>>>>> 30a86fd59b13629ec63c42359938213acd9f3068
 }
 
-.button{
+.button {
     margin: 0;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
-    transform:translate(190%);
+    transform: translate(190%);
     background-color: #0b807a;
     color: #ddd;
     width: 200px;
@@ -264,7 +263,7 @@ label #sidebar_btn:hover {
     box-shadow: 40px;
 }
 
-.button1{
+.button1 {
     margin: 0;
     top: 50%;
     background-color: #0b807a;
@@ -274,5 +273,9 @@ label #sidebar_btn:hover {
     margin-left: 375px;
     float: right;
     border-color: white;
+<<<<<<< HEAD
     color: white;
 }   
+=======
+}
+>>>>>>> 30a86fd59b13629ec63c42359938213acd9f3068

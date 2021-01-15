@@ -75,7 +75,7 @@ header {
     color: #fff;
     display: block;
     width: 100%;
-    line-height: 60px;
+    line-height: 50px;
     text-decoration: none;
     padding-left: 40px;
     box-sizing: border-box;
@@ -211,12 +211,16 @@ label #sidebar_btn:hover {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .destination h1 {
     font-size: 30px;
     color: #0B807A;
 }
 
 .button1{
+=======
+.button1 {
+>>>>>>> 30a86fd59b13629ec63c42359938213acd9f3068
     margin-top: 80px;
     border-width: 3px;
     background-color: #0b807a;
